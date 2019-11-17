@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11690323900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookes.beforeBackground()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "this is login scenario",
+        "description": "",
+        "id": "this-is-the-login-for-orange-hrm;this-is-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 3647456900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookes.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "OrangeHRMLogIn.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155942800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters the valid username and password",
+            "match": {
+              "location": "OrangeHRMLogIn.user_enters_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3036855000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on login button",
+            "match": {
+              "location": "OrangeHRMLogIn.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "orange HRM home page should be displayed",
+            "match": {
+              "location": "OrangeHRMLogIn.orange_HRM_home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "this is the login for orange HRM",
+    "description": "",
+    "id": "this-is-the-login-for-orange-hrm",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/OrangeHRM.feature",
+    "tags": []
+  }
+]
